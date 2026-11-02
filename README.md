@@ -1,8 +1,8 @@
-📚 Library Management System
+Library Management System----
 
 A desktop-based Library Management System built with Python, Tkinter, and SQLite. The application helps an administrator manage books and students, record book issues and returns, and monitor overdue books through a graphical user interface.
 
-📌 Table of Contents
+Table of Contents----
 - Overview
 - Features
 - Technology Stack
@@ -14,13 +14,13 @@ A desktop-based Library Management System built with Python, Tkinter, and SQLite
 - Default Admin Login
 - Future Improvements
 
-📝 Overview
+Overview----
 The Library Management System is designed to simplify routine library operations. An administrator can log in to the application and manage book records, student information, and book transactions.
 
 The application uses Tkinter for its desktop GUI and SQLite for local data storage. The database file is created automatically when the application starts if it does not already exist.
 
 
-✨ Features
+Features----
 - Admin Login — access the application through an administrator login.
 - Book Management — add, view, update, delete, and search book records.
 - Student Management — maintain student information.
@@ -28,7 +28,8 @@ The application uses Tkinter for its desktop GUI and SQLite for local data stora
 - Return Books — record returned books and update their availability.
 - Overdue Tracking — view books that have passed their due date.
 - SQLite Storage — store application data locally in a database.
-🧰 Technology Stack
+
+Technology Stack----
 Technology	Purpose
 Python	Main programming language
 Tkinter	Desktop graphical user interface
@@ -36,45 +37,40 @@ SQLite	Local relational database
 Git & GitHub	Version control and project hosting
 
 
-🔄 Application Workflow
-The diagram below shows the main flow of the application, from startup and login to dashboard operations and database updates.
-```mermaid
-flowchart TD
-    A([Start Application]) --> B[Load Python Application]
-    B --> C[Connect to SQLite Database]
-    C --> D[Create Tables if Needed]
-    D --> E[Display Admin Login]
-    E --> F{Are Login Details Valid?}
-    F -- No --> G[Show Login Error]
-    G --> E
-    F -- Yes --> H[Open Admin Dashboard]
 
-    H --> I{Choose an Operation}
-    I --> J[Book Management]
-    I --> K[Student Management]
-    I --> L[Issue Book]
-    I --> M[Return Book]
-    I --> N[View Overdue Books]
-    I --> O[Logout]
+flowchart 
+    STEP 1:([Start Application]) 
+    STEP 2:[Load Python Application]
+    STEP 3:[Connect to SQLite Database]
+    STEP 4: D[Create Tables if Needed]
+    STEP 5: E[Display Admin Login]
+    STEP 6:F{Are Login Details Valid?}
+    STEP 7:No
+    STEP 8:[Show Login Error]
+    STEP 9: Yes
+    STEP 11:[Open Admin Dashboard]
 
-    J --> J1[Add / View / Update / Delete / Search Books]
-    K --> K1[Add / View / Update / Delete / Search Students]
-    L --> L1[Select Student and Available Book]
-    M --> M1[Select Issued Book and Record Return]
-    N --> N1[Check Due Dates]
+#After opening------
+    STEP 1:{Choose an Operation}
+    STEP 2:J[Book Management]
+    STEP 3:[Student Management]
+    STEP 4: [Issue Book]
+    STEP 5:[Return Book]
+    step 6:[View Overdue Books]
+    STEP 7:[Logout]
 
-    J1 --> P[(SQLite Database)]
-    K1 --> P
-    L1 --> P
-    M1 --> P
-    N1 --> P
+#Workings----
 
-    P --> H
-    O --> Q([Close Application])
+    [Add / View / Update / Delete / Search Books]
+    [Add / View / Update / Delete / Search Students]
+    [Select Student and Available Book]
+    [Select Issued Book and Record Return]
+    [Check Due Dates]
+    ([Close Application])
 
 
 
-Workflow Explanation
+Workflow Explanation---
 1. Application Startup: The Python application starts and connects to the SQLite database.
 2. Database Initialization: Required tables are created if they do not already exist.
 3. Admin Login: The administrator enters login credentials.
@@ -82,7 +78,9 @@ Workflow Explanation
 5. Library Operations: The administrator can manage books and students, issue or return books, and view overdue records.
 6. Database Updates: Changes made through the application are stored in the SQLite database.
 7. Logout: The administrator can log out and close the application.
-🗄️ Database Design
+
+
+ Database Design
 The application uses SQLite for local data storage. The database setup creates the following tables:
 Table	Purpose
 admins	Stores administrator login information
@@ -95,7 +93,7 @@ Note: The exact columns and relationships are defined in database.py.
 
 
 
-📁 Project Structure
+Project Structure----
 Library-Management-System/
 │
 ├── main.py          # Main application and Tkinter GUI
@@ -106,7 +104,7 @@ Library-Management-System/
 library.db is intentionally excluded from GitHub by .gitignore. Each user can generate their own local database by running the application.
 
 
-⚙️ Installation and Setup
+Installation and Setup---
 Prerequisites
 - Python 3 installed
 - Git (optional, for cloning the repository)
@@ -121,7 +119,7 @@ Tkinter note: Tkinter is included with many standard Python installations. If th
 
 
 
-🖥️ How to Use
+ How to Use----
 1. Run main.py.
 2. Log in using the administrator credentials configured in the project.
 3. Use the dashboard to open the required section.
@@ -132,7 +130,7 @@ Tkinter note: Tkinter is included with many standard Python installations. If th
 
 
 
-🚀 Future Improvements
+ Future Improvements----
 - Role-based access for librarians and administrators
 - Password hashing and stronger authentication
 - Book issue due-date reminders
@@ -142,8 +140,8 @@ Tkinter note: Tkinter is included with many standard Python installations. If th
 - Automated database backup and restore
 
 
-👨‍💻 Author
+Author----
 Pronay Gaine,Tanmoy Giri,Proloy Sadhukhan,Md.Toufiq Ahamed
 
 GitHub: @pronay-hub
-⭐ If you find this project useful, consider giving the repository a star.
+If you find this project useful, consider giving the repository a star.
