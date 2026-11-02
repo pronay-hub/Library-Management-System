@@ -143,5 +143,6 @@ Tkinter note: Tkinter is included with many standard Python installations. If th
 Author----
 Pronay Gaine,Tanmoy Giri,Proloy Sadhukhan,Md.Toufiq Ahamed
 
-GitHub: @pronay-hub
+GitHub: @pronay-hub---
+
 If you find this project useful, consider giving the repository a star.
