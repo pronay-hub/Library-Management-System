@@ -94,15 +94,7 @@ Note: The exact columns and relationships are defined in database.py.
 
 
 Project Structure----
-Library-Management-System/
-│
-├── main.py          # Main application and Tkinter GUI
-├── database.py      # SQLite connection and table creation
-├── README.md        # Project documentation
-├── .gitignore       # Files excluded from Git tracking
-└── library.db       # Created locally when the application runs
-library.db is intentionally excluded from GitHub by .gitignore. Each user can generate their own local database by running the application.
-
+<img width="1147" height="202" alt="image" src="https://github.com/user-attachments/assets/97665c11-42e2-4728-abab-d6be2baef8c4" />
 
 Installation and Setup---
 Prerequisites
