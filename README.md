@@ -129,6 +129,8 @@ Tkinter note: Tkinter is included with many standard Python installations. If th
 7. Log out when finished.
 
 
+Output:
+<img width="1917" height="1078" alt="Screenshot 2026-11-05 152039" src="https://github.com/user-attachments/assets/56567640-3d20-43fe-b10e-f5db5d51f02b" />
 
  Future Improvements----
 - Role-based access for librarians and administrators
