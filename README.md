@@ -136,9 +136,9 @@ Output:
 
 Author----
 Pronay Gaine,Tanmoy Giri,Md.Toufiq Ahamed, Prolay Sadhukhan 
-
+contributors:Tanmoy Giri,Md.Toufiq Ahamed, Prolay Sadhukhan 
 GitHub: @pronay-hub---
-contributors: Tanmoy Giri
+
 
 
 If you find this project useful, consider giving the repository a star.
