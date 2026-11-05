@@ -143,7 +143,7 @@ Output:
 
 
 Author----
-Pronay Gaine,Tanmoy Giri,Proloy Sadhukhan,Md.Toufiq Ahamed
+Pronay Gaine,Tanmoy Giri,Md.Toufiq Ahamed
 
 GitHub: @pronay-hub---
 contributors: Tanmoy Giri
